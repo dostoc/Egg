@@ -1,0 +1,11 @@
+.btn-primary {
+}
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main form {
+    border: 1px solid gray;
+    padding: 15px;
+}

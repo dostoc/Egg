@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="post" action="mailto:jona.ky@google.com">
+        <label>Nombre de usuario</label><br/>
+        <input type="text" name="nombre" value="nombre" maxlength="60"><br>
+        <label>Contraseña de usuario</label><br>
+        <input type="password" name="pass"value="8 letras" maxlength="8"><br>
+        <label>Edad del usuario</label><br>
+        <input type="number" name="edad"value="años"><br>
+        <label>Fecha de nacimiento del usuario</label><br>
+        <input type="date" name="fnac" value="..."><br>
+        <label>Sexo del usuario</label><br>
+        <input type="radio" name="sexo" value="1">Hombre <br>
+        <input type="radio" name="sexo" value="1">Mujer <br>
+        <input type="radio" name="sexo" value="1">Prefiero no decir <br>
+        <label for="menu">Menu:</label><br>
+        <input type="checkbox" name="menu">Choris<br>
+        <input type="checkbox" name="menu">Asado<br>
+        <input type="checkbox" name="menu">Más asado<br>
+        <label for="Pais">Pais de nacimiento</label>
+        <select name="estacion"> 
+            <option>Argentina</option> 
+            <option>Brasil</option> 
+            <option>Peru</option> 
+            <option>Mejico</option> 
+        </select><br>
+        <input type="submit" value="Enviar"><br>
+        <input type="reset" value="Borra formulario">
+    </form>
+</body>
+</html>

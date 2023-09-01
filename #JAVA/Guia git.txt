@@ -1,0 +1,40 @@
+1) Crear directorio local y dar click derecho -> git bash
+***
+> git init
+***
+> ir a la web de git y generar el repositorio
+Ej: https://github.com/dostoc/introduccionjava.git
+
+***
+> git remote add origin https://github.com/dostoc/introduccionjava.git
+***
+
+ (sube todo comando generico)
+git status
+git add .
+git commit -m "g9 - 1105"
+git push origin main
+
+
+ 
+
+
+> git remote -v
+
+***
+> git pull origin master (trae todo)
+> git push origin master (subir todo)
+
+
+*****
+Añadir archivos
+
+> git add <archivo>
+
+******
+Añadir todo de una vez:
+> git add .
+
+
+***
+git status (comprobar novedades)

@@ -1,0 +1,81 @@
+.btn-menu {
+    margin-left: 1%;
+}
+
+/*   HOME       */
+body {
+    background-color: black;
+
+}
+main {
+}
+
+main .img-main {
+
+    
+}
+
+
+/*   REGISTRO   */
+
+.form-registro {
+    max-width: 400px;
+    margin: 0 auto;
+}
+/*    TABLA     */
+
+.table-conversion {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+th {
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+
+td {
+    padding:  0.5em 0.5em 0.5em 1em;
+    text-align: right;
+    border: 1px solid black;
+}
+
+.icon-img {
+    vertical-align: middle;
+    
+}
+
+.first-col-table {
+    background-color: #E6F3FF;
+    text-align: left;
+}
+
+.icon-list {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0.5em;
+}
+
+.row-yelow {
+    background-color: #FFFFCC;
+}
+
+.icon-euro {
+    background-image: url('../img/euro.png');
+}
+.icon-dolar {
+    background-image: url('../img/dolar.png');
+}
+
+.icon-libra {
+    background-image: url('../img/libra.png');
+}
+
+.icon-yen {
+    background-image: url('../img/yen.png');
+}
+

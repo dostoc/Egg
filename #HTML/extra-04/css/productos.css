@@ -1,0 +1,16 @@
+h2 {font-size: 1.25em;}
+h5 {font-weight: 100;}
+
+span {
+    color: rgb(57, 204, 245);
+}
+.descripcion{
+}
+
+.cualidades {
+    font-size: 0.8em;
+}
+
+.producto{
+    padding: 0.5em;
+}

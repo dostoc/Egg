@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="g12-teoria-01">
+  <ClassDiagramComponents>
+    <Class name="Animal" package="entidad" visibility="public" xPosition="269.0" yPosition="78.0">
+      <Fields>
+        <Field name="saludo" type="String" visibility="protected"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="saludo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSaludo" returnType="String" visibility="public"/>
+        <Method name="setSaludo" returnType="void" visibility="public">
+          <Argument type="String" name="saludo"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Gato" package="entidad" visibility="public" xPosition="161.0" yPosition="300.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="saludo"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Perro" package="entidad" visibility="public" xPosition="426.0" yPosition="300.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="saludo"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="G12Teoria01" package="g12.teoria.pkg01" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="entidad.Perro" target="entidad.Animal"/>
+    <IsRelation name="is" source="entidad.Gato" target="entidad.Animal"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

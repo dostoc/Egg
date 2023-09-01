@@ -1,0 +1,43 @@
+#titulo {
+    color: rgb(12, 160, 168);
+}
+
+strong {
+    color: red;
+}
+
+.destacado {
+    color: orange;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+a{
+    color: red;
+}
+
+p a em{
+    color: blue;
+}
+
+.especial {
+    color: blueviolet;
+}
+
+table .especial {
+    color: orange;
+}
+
+table td{
+    color: olive;
+}
+
+caption {
+    display:none;
+}
+th{
+    font-weight: bold;
+    color: black;
+}

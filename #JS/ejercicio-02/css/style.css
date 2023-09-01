@@ -1,0 +1,24 @@
+* {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;}
+ul{ 
+    padding: 1em;
+    margin: 0;
+    background-color: aquamarine;
+}
+p {
+    font-weight: lighter;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+li:first-child {
+    font-weight: lighter;
+    color: rgb(32, 67, 56);
+}
+
+.contenedor {
+    width: 50%;
+    margin: 0 auto;
+}

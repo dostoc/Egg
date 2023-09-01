@@ -1,0 +1,328 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "g5_2",
+            "request": "launch",
+            "mainClass": "g5_2",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_extra_1",
+            "request": "launch",
+            "mainClass": "g5_extra_1",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_extra_1",
+            "request": "launch",
+            "mainClass": "G5.g5_extra_1",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "G5.Main",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_2_vector_aleatorio",
+            "request": "launch",
+            "mainClass": "G5.g5_2_vector_aleatorio",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_2_vector_recursivo",
+            "request": "launch",
+            "mainClass": "G5.g5_2_vector_recursivo",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_3_contador_digitos",
+            "request": "launch",
+            "mainClass": "G5.g5_3_contador_digitos",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_4_transpuesta",
+            "request": "launch",
+            "mainClass": "G5.g5_4_transpuesta",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_6_Matriz_magica",
+            "request": "launch",
+            "mainClass": "G5.g5_6_Matriz_magica",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_teoria_1",
+            "request": "launch",
+            "mainClass": "G5.g5_teoria_1",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g5_teoria_matices",
+            "request": "launch",
+            "mainClass": "G5.g5_teoria_matices",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "NewMain",
+            "request": "launch",
+            "mainClass": "introduccionjava.NewMain",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "While",
+            "request": "launch",
+            "mainClass": "introduccionjava.While",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g1_Impresion_bucleForanidado",
+            "request": "launch",
+            "mainClass": "introduccionjava.g1_Impresion_bucleForanidado",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g1_Impresion_bucleForanidado_v2",
+            "request": "launch",
+            "mainClass": "introduccionjava.g1_Impresion_bucleForanidado_v2",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g1_LargoPalabra",
+            "request": "launch",
+            "mainClass": "introduccionjava.g1_LargoPalabra",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g1_basicos_Introduccionjava",
+            "request": "launch",
+            "mainClass": "introduccionjava.g1_basicos_Introduccionjava",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g1_basicos_Suma20validada",
+            "request": "launch",
+            "mainClass": "introduccionjava.g1_basicos_Suma20validada",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_1_ParImpar",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_1_ParImpar",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_2_ValidaPalabra",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_2_ValidaPalabra",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_3_largoPalabra",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_3_largoPalabra",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_4_primer_caracter",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_4_primer_caracter",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_4_primo",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_4_primo",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_5_suma_bucle_hasta_que",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_5_suma_bucle_hasta_que",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_6_Calculadora",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_6_Calculadora",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_7_sieteRS232Scanner",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_7_sieteRS232Scanner",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_8_Cuadradito",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_8_Cuadradito",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extra_2_ABCD_v2",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extra_2_ABCD_v2",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extra_5_obraSocial",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extra_5_obraSocial",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extra_8_division_con_restas_fun",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extra_8_division_con_restas_fun",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extras_10_random",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extras_10_random",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extras_1_horas_a_dias",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extras_1_horas_a_dias",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extras_2_ABCD_Intercambio",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extras_2_ABCD_Intercambio",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extras_3_buscarVocal",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extras_3_buscarVocal",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extras_4_a_nros_romanos",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extras_4_a_nros_romanos",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extras_5_obra_social",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extras_5_obra_social",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extras_6_altura_promedio",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extras_6_altura_promedio",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g3_extras_7_ValorMaxMin",
+            "request": "launch",
+            "mainClass": "introduccionjava.g3_extras_7_ValorMaxMin",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g4_2_mayor_menor",
+            "request": "launch",
+            "mainClass": "introduccionjava.g4_2_mayor_menor",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g4_3_cambio",
+            "request": "launch",
+            "mainClass": "introduccionjava.g4_3_cambio",
+            "projectName": "java_a79fcf13"
+        },
+        {
+            "type": "java",
+            "name": "g4_teoria_1",
+            "request": "launch",
+            "mainClass": "introduccionjava.g4_teoria_1",
+            "projectName": "java_a79fcf13"
+        }
+    ]
+}

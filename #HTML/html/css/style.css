@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+}
+
+/*
+font: [ <font-style> || <font-variant> || <font-weight> ]? <font-size> [ / <line-height> ]? <font-family>
+font: caption | icon | menu | message-box | small-caption | status-bar | -moz-window | -moz-document | -moz-workspace | -moz-desktop | -moz-info | -moz-dialog | -moz-button | -moz-pull-down-menu | -moz-list | -moz-field
+*/
+
+h1 {
+    font-style: oblique ;
+    font-variant: normal;
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font: 600 1.5em Cambria;
+    color: aquamarine;
+}
+
+p{
+    font: oblique 200 0.8em Verdana;
+    line-height: 1.5em;
+}
+
+.p3{
+    font-weight:900;
+    color: rgb(100, 107, 105);
+}
+a {
+    color: #CC0000;
+}
+a:hover {
+    color:white !important;
+    background-color: #CC0000;
+}
+a:visited {
+    color: rgb(98, 16, 133);
+}

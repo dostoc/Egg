@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1 id="ejeNro"></h1>
+        <p id="p1"></p>
+
+
+        <table>
+            <tr>
+                <td colspan="4">
+                    <p id="consigna"></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input id="inputDato1" type="text" placeholder="Nro 1"></td>
+                <td colspan="2"><input id="inputDato2" type="text" placeholder="Nro 2"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button id="btn-sum" class="operacion-btn" type="submit">SUM(+)</button>
+                </td>
+                <td>
+                    <button id="btn-res" class="operacion-btn" type="submit">RES(-)</button>
+                </td>
+                <td>
+                    <button id="btn-mul" class="operacion-btn" type="submit">MULT(*)</button>
+                </td>
+                <td>
+                    <button id="btn-div" class="operacion-btn" type="submit">DIV(/)</button>
+                </td>
+            </tr>
+
+            
+
+            <tr>
+                <td  colspan="4" class="calc-display" aria-placeholder="Resultado">
+                    <p id="respuesta">resultado</p>
+                </td>
+            </td>
+            
+        </table>
+
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
